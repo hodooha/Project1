@@ -7,6 +7,12 @@ def sub_func(n1, n2) :
     retValue = n1 - n2
     return retValue
 
+def mul_func(n1, n2) :
+    retValue = n1 * n2
+    return retValue
+
+
+
 
 ## 전역 변수 부분(=클래스 변수)
 
@@ -20,3 +26,8 @@ print(num1, '+', num2, '=', res)
 
 res = sub_func(num1, num2)
 print(num1, '-', num2, '=', res)
+
+res = mul_func(num1, num2)
+print(num1, 'X', num2, '=', res)
+
+
