@@ -11,6 +11,9 @@ def mul_func(n1, n2) :
     retValue = n1 * n2
     return retValue
 
+def div_func(n1, n2) :
+    retValue = n1 / n2
+    return retValue
 
 
 
@@ -30,4 +33,5 @@ print(num1, '-', num2, '=', res)
 res = mul_func(num1, num2)
 print(num1, 'X', num2, '=', res)
 
-
+res = div_func(num1, num2)
+print(num1, '/', num2, '=', res)
